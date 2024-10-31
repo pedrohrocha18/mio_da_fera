@@ -17,6 +17,8 @@
   color: white;
   font-size: 16px;
   font-weight: bold;
+
+  text-align: center;
 }
 
 .p-3 {
@@ -72,10 +74,6 @@
   width: 70px;
 }
 
-.icon-inline {
-  font-size: 30px;
-}
-
 .logo-text h1 {
   color: #803620;
   font-family: "Hurricane", sans-serif;
@@ -88,8 +86,20 @@
   font-size: 42px;
 }
 
+.js-addtocart-adding {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .nav-list-link {
     font-weight: 600;
+  }
+  .logo-text-container a {
+    font-size: 38px;
+  }
+  .logo-text h1 {
+    font-size: 38px;
   }
 }
