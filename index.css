@@ -92,10 +92,6 @@
   justify-content: center;
 }
 
-.container {
-  padding: 10px;
-}
-
 .row {
   display: flex;
   align-items: center;
